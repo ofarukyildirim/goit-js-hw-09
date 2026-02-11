@@ -9,6 +9,7 @@ if (savedData) {
   form.elements.message.value = currentData.message || "";
 }
 
+
 form.addEventListener("input", event => {
     const formData = {
         email: form.elements.email.value.trim(),
