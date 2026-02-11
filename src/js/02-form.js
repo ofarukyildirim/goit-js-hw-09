@@ -7,7 +7,7 @@ if (savedData) {
     
   form.elements.email.value = currentData.email || "";
   form.elements.message.value = currentData.message || "";
-}
+} 
 
 
 form.addEventListener("input", event => {
